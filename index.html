@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Your Password</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Inter, Arial, sans-serif;">
+
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="padding: 30px 0;">
+        <tr>
+            <td align="center">
+
+                <table width="100%" style="max-width: 600px; background-color: #FFFFFF; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
+                    
+                    <!-- 🔹 1. Header  -->
+                    <tr>
+                        <td align="center" style="
+                            background-color: #212425; 
+                            background-image: url('images/fon_header.svg'); 
+                            background-size: cover; 
+                            background-repeat: no-repeat; 
+                            background-position: center;
+                            height: 93px;">
+                            
+                            <!-- Logo -->
+                            <img src="images/logo_go.svg" alt="StoryGo" style="max-width: 150px; width: auto; height: auto;">
+                    
+                        </td>
+                    </tr>
+                    
+                    
+
+                    <!-- 🔹 2. Main content -->
+                    <tr>
+                        <td align="center" style="padding-top: 72px; padding-left: 0; padding-right: 0; padding-bottom: 0;">
+                            <table width="100%" style="max-width: 510px; background-color: #F6F6F6; border-radius: 8px; padding: 30px;">
+                                <tr>
+                                    <td style="position: relative; padding: 20px;">
+
+                                        <img src="images/icon_lock.svg" alt="Lock" style="max-width: 65px; width: 100%; position: absolute; top: -62px; left: 10px;">
+                                        
+                                        <h1 style="
+                                        color: #212425; 
+                                        font-size: 30px; 
+                                        font-weight: 500;
+                                        line-height: 100%;
+                                        margin-bottom: 10px;">Reset Your Password</h1>
+
+                                        <table width="100%" align="center" style="max-width: 427px; border-bottom: 0.7px solid #DADCE0; margin: 20px auto;">
+                                            <tr><td></td></tr>
+                                        </table>
+
+                                    <!-- Dynamic Content: Username -->
+                                        <p style="
+                                        color: #212425; 
+                                        font-size: 20px;
+                                        font-weight: 500;
+                                        line-height: 21px;
+                                        margin-top: 30px;
+                                        margin-bottom: 21px;"
+                                        >Dear {{ username }},</p>
+
+                                        <p style="color: #212425; font-weight: 400; font-size: 14px; line-height: 21px;"> Please click the following link to reset your password:</p>
+
+                                    <!-- Dynamic Content: Reset Password Link -->    
+                                        <a href="{{ reset_link }}" style="
+                                        background-color: #E0822D; 
+                                        color: #FFFFFF; padding: 12px 24px; 
+                                        text-decoration: none; 
+                                        border-radius: 5px; 
+                                        display: block; 
+                                        width: 100%;
+                                        max-width: 147px; 
+                                        text-align: center; 
+                                        font-size: 16px; 
+                                        font-weight: 400;
+                                        line-height: 21px; 
+                                        margin-top: 25px;">
+                                            Reset Password
+                                        </a>
+
+                                        <table width="100%" align="center" style="max-width: 427px; border-bottom: 0.7px solid #DADCE0; margin: 34px auto;">
+                                            <tr><td></td></tr>
+                                        </table>
+
+                                        <p style="color: #212425; font-weight: 400; font-size: 13px; line-height: 21px; margin-bottom: 14px;">
+                                            If you didn't initiate this request, you can safely ignore this email.
+                                        </p>
+                                        <p style="color: #212425; font-weight: 400; font-size: 13px; line-height: 20px; ">
+                                            This link will expire after a certain period. If you don't use it within that time, you may need to request another reset.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- 🔹 3. footer -->
+                    <tr>
+                        <td align="center" style="padding: 56px;">
+                            <p style="color: #7E7E7E; font-weight: 400; font-size: 14px; line-height: 21px;">If you have any questions, feel free to message us at 
+                                <a href="mailto:support@storygo.ai" style="color: #E0822D;  font-weight: 400; font-size: 14px; line-height: 21px;">support@storygo.ai</a>
+                            </p>
+                            <p style="color: #7E7E7E; font-weight: 400; font-size: 14px; margin-top: 10px; line-height: 21px;">
+                                You are receiving this email because you are a StoryGo user. If you no longer wish to receive these messages, you can unsubscribe.
+                            </p>
+                            <p style="color: #7E7E7E; font-size: 14px; margin-top: 14px; line-height: 21px;">© 2025 StoryGo. All rights reserved.</p>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
